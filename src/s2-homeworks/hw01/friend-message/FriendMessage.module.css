@@ -1,31 +1,59 @@
 .friendMessage {
+    font-family: Montserrat , sans-serif;
+    margin-left: 70px;
 
 }
 
 .friendImageAndText {
-
+    display: flex;
+    align-items: flex-end;
 }
 
 .friendImageAndText img {
-
+    width: 48px;
+    height: 48px;
+    margin-right: 25px;
 }
 
 .friendText {
-
+    position: relative;
+    background-color: #e5f5ff;
+    font-family: Montserrat , sans-serif;
+    color: black;
+    padding: 8px 13px;
+    border-radius: 12px;
 }
 
 .friendText:after {
-
+    content: "";
+    position: absolute;
+    bottom: 0px; left: -20px; /* Положение треугольника */
+    border: 20px solid transparent;
+    border-right: 20px solid #e5f5ff;
+    border-bottom: 20px solid #e5f5ff;
+    z-index: -1;
 }
 
 .friendName {
 
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
 }
 
 .friendMessageText {
-
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 }
 
 .friendTime {
+    font-size: 10px;
+    font-weight: 600;
 
 }

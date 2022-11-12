@@ -1,31 +1,73 @@
 .message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    font-family: Montserrat , sans-serif;
+    margin: 0px 70px 70px 0px;
 
 }
 
 .imageAndText {
-
+    display: flex;
+    align-items: self-end;
+    flex-direction: row-reverse;
 }
 
 .imageAndText img {
-
+    position: relative;
+    width: 48px;
+    height: 48px;
+    margin-left: 25px;
 }
 
 .text {
+    position: relative;
+    background-color: #0066CC;
+    font-family: Montserrat , sans-serif;
+    color: #FFFFFF;
+    padding: 8px 13px;
+    border-radius: 12px;
 
 }
 
-.text:after {
+.text::after {
+    content: "";
+    position: absolute;
+    bottom: 0px; right: -20px; /* Положение треугольника */
+    border: 20px solid transparent;
+    border-bottom: 20px solid #0066CC;
+    border-left: 20px solid #0066CC;
+    z-index: -1;
 
 }
 
 .name {
+    display: flex;
+    flex-direction: row-reverse;
+
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
 
 }
 
 .messageText {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
 
 }
 
-.time {
 
+.time {
+    position: relative;
+    top: 20px;
+    left: -40px;
+    font-size: 10px;
+    font-weight: 600;
 }
