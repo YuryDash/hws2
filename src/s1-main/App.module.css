@@ -7,14 +7,17 @@
 }
 
 .hwTitle {
+    position: relative;
     font-family: Montserrat;
     font-size: 22px;
     font-weight: 600;
     line-height: 27px;
-
-
-
+    padding: 100px 0;
 }
+
+
+
+
 body{
     width: 1280px;
     margin: 0 auto;
