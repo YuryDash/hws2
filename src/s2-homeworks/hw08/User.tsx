@@ -21,4 +21,6 @@ const User: React.FC<UserPropsType> = ({ u }) => {
     )
 }
 
+
+
 export default User
