@@ -31,15 +31,7 @@ function Clock() {
         setShow(false)
     }
 
-    let days = [
-        'monday',
-        'tuesday',
-        'wednesday',
-        'thursday',
-        'friday',
-        'sunday',
-        'monday',
-    ]
+    let days = ['Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
  let a = date.getDay()
     let months = ["January", "February" , "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"];
