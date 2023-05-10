@@ -7,7 +7,7 @@
     --color: #000000;
     --background: #DDEEFF;
 }
-
+/*for deploy*/
 [data-theme='3'] {
     --color: #FFFFFF;
     --background: #212A34;
